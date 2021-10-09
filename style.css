@@ -1,0 +1,1013 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+   padding: 0;
+   margin: 1px;
+   box-sizing: border-box;
+   font-family: Roboto, Montserrat;
+}
+
+.inicio{
+    text-align: center;
+    padding-top: 30px;    
+}
+
+iframe{
+    float: right;
+    margin-top: -250px;
+    border-radius: 10px;
+    border: solid;
+    border-color: white;
+    margin-right: 30px;
+}
+
+h1{
+    margin-top: 120px;
+    font-size: 38px;
+    color: white;
+    margin-left: 20px;
+}
+
+span{
+    color: rgb(255, 18, 18);
+}
+
+
+.texto{
+    margin-top: 30px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+
+button{
+    font-size: 16px;
+    padding: 25px 100px;
+    border: 0;
+    border-radius: 45px;
+    color: white;
+    font-family: roboto;
+    background-color: green;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+}
+
+button:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px;
+
+}
+
+@keyframes botao{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+section{
+    width: 1137px;
+    height: 600px;
+    background-image: url(fundo1-1.jpg);
+    background: pink;
+}
+
+.container1{
+    margin-top: 100px;
+}
+
+h4{
+    text-align: center;
+    margin-top: -350px;
+    font-size: 18px;
+    font-weight: 70;
+    color: rgb(129, 129, 129);
+    margin-right: -50px;   
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-align: justify;
+    float: right;
+    margin-right: 220px;
+    color: purple;
+}
+
+.texto1{
+    margin-top: 110px;
+    text-align: center;
+    margin-left: 470px;
+    text-align: justify;
+}
+
+.container2{
+    margin-top: 170px;
+    background: pink;
+    height: 550px;
+    padding-top: 50px;
+    
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+       
+}
+
+.texto2{
+    color: white;
+    text-align: center;
+}
+
+.fotos{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around; 
+    height: 270px;
+    
+}
+
+.fotos:hover{
+    animation-name: fotos;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px;
+
+}
+
+@keyframes fotos{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+.texto3{
+    color: brown;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 35px;
+    font-family: roboto;
+
+}
+
+.container4{
+    background: pink;
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    padding-top: 80px;
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 75px;
+}
+.basico{
+    margin-top: -55px;
+}
+.basico:hover{
+    padding-top: 10px;
+    transition: .5s;
+}
+.container5{
+    text-align: center;
+    background: pink;
+    height:250px;
+    width: 300px;
+    border-radius: 15px;
+    padding-top: 80px;
+    font-size: 15px;
+    margin-left: 420px;
+    margin-top: -250px;
+}
+.aulas{
+    margin-top: -55px;
+}
+.aulas:hover{
+    padding-top: 10px;
+    transition: .5s;
+}
+
+.container6{
+    background: pink;
+    margin-left: 340px;
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: -190px;
+    padding-top: 80px;
+
+}
+.mercado{
+    margin-top: -60px;
+}
+.mercado:hover{
+    padding-top: 10px;
+    transition: .5s;
+}
+
+.container7{
+    background: #380022;
+    height: 2950px;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.texto4{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+
+}
+
+.texto5{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+.foto1{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.foto1:hover{
+   padding-top: 10px;
+   transition: .5s;
+   
+}
+
+.f1{
+    color: white;
+    text-align: center;
+    margin-left: -900px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.foto2{
+    margin-top: -290px;
+    margin-left: 320px;
+}
+.foto2:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f2{
+    color: white;
+    text-align: center;
+    margin-left: -630px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.foto3{
+    margin-left: 600px;
+    margin-top: -290px;
+}
+.foto3:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f3{
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    text-align: center;
+    margin-right: 360px;
+}
+
+.foto4{
+    margin-left: 870px;
+    margin-top: -290px;
+}
+.foto4:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f4{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    margin-right: 80px;
+}
+
+.foto5{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.foto5:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f5{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.foto6{
+    margin-left: 325px;
+    margin-top: -270px;
+}
+.foto6:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f6{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -620px;
+    padding-top: 20px;
+}
+
+.foto7{
+    margin-left: 600px;
+    margin-top: -280px;
+}
+.foto7:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f7{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.foto8{
+    margin-right: 50px;
+    float: right;
+    margin-top: -250px;
+}
+.foto8:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f8{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.foto9{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.foto9:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f9{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: -900px;
+}
+
+.foto10{
+    margin-left: 325px;
+    margin-top: -275px;
+}
+.foto10:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f10{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: -615px;
+}
+
+.foto11{
+    margin-left: 595px;
+    margin-top: -280px;
+}
+.foto11:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f11{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    margin-right: 360px;
+}
+
+.foto12{
+    margin-left: 870px;
+    margin-top: -270px;
+}
+.foto12:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f12{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.foto13{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.foto13:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f13{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+
+.foto14{
+    margin-left: 325px;
+    margin-top: -250px;
+}
+.foto14:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f14{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.foto15{
+    margin-left: 600px;
+    margin-top: -250px;
+}
+.foto15:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f15{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 40px;
+}
+
+.foto16{
+    margin-left: 870px;
+    margin-top: -250px;
+}
+.foto16:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f16{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    margin-right: 80px;
+}
+
+.foto17{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.foto17:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f17{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+
+.foto18{
+    margin-left: 320px;
+    margin-top: -260px;
+}
+.foto18:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+
+.f18{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    margin-left: -635px;
+}
+
+.foto19{
+    margin-left: 600px;
+    margin-top: -270px;
+}
+.foto19:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+
+.f19{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.foto20{
+    margin-left: 865px;
+    margin-top: -250px;
+}
+.foto20:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+
+.f20{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.foto21{
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.foto21:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f21{
+    color: white;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.foto22{
+    margin-left: 320px;
+    margin-top: -250px;
+}
+.foto22:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f22{
+    color: white;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.foto23{
+    margin-left: 590px;
+    margin-top: -250px;
+}
+.foto23:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f23{
+    color: white;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.foto24{
+    margin-left: 870px;
+    margin-top: -250px;
+}
+.foto24:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f24{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    margin-right: 90px;
+}
+
+.foto25{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.foto25:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f25{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+.foto26{
+    margin-left: 300px;
+    margin-top: -265px;
+}
+.foto26:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f26{
+    color: white;
+    font-size: 20px;
+    padding-top: 22px;
+    margin-left: 30px;
+}
+
+.foto27{
+    margin-left: 580px;
+    margin-top: -265px;
+}
+.foto27:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f27{
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    margin-left: 10px;
+}
+
+.foto28{
+    margin-left: 870px;
+    margin-top: -265px;
+}
+.foto28:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f28{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.foto29{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.foto29:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f29{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    margin-left: -900px;
+}
+
+.foto30{
+    margin-left: 310px;
+    margin-top: -280px;
+}
+.foto30:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f30{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    margin-left: -650px;
+}
+
+.foto31{
+    margin-left: 580px;
+    margin-top: -280px;
+}
+.foto31:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f31{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center;
+    margin-right: 350px;
+}
+
+.foto32{
+    margin-left: 880px;
+    margin-top: -270px;
+}
+.foto32:hover{
+    padding-top: 10px;
+    transition: .5s; 
+ }
+.f32{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.tfinal{
+    color: #ef828b;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.2em;
+    font-family: roboto;
+}
+
+.textobonus{
+    text-align: center;
+    font-size: 30px;
+    color: #67003e;
+    margin-top: 120px;
+}
+
+.foto33{
+    margin-left: 70px;
+    padding-top: 80px;
+}
+.f33{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 18px;
+    margin-left:130px;
+    
+}
+.f331{
+    text-align: left;
+    margin-left: -35px;
+    color: #67003e;
+}
+.f332{
+    text-align: center;
+    margin-left: -900px;
+}
+
+.foto34{
+    margin-left: 420px;
+    margin-top: -423px;
+}
+
+.f34{
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: 18px;
+}
+.f341{
+    color: #67003e;
+    margin-left: -40px;
+}
+.f342{
+    text-align: center;
+    margin-left: -520px;
+}
+
+.foto35{
+    margin-left: 760px;
+    margin-top: -430px;
+}
+.f35{
+    margin-top: 38px;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 130px;
+}
+.f351{
+    color: #67003e;  
+}
+.f352{
+    text-align: center;
+    margin-right: -75px;
+}
+
+.container9{
+    margin-top: 100px;
+    background: #ef828b;
+    height: 860px;
+}
+.textov{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 43px;
+    color: white;
+}
+.textov1{
+    font-size: 20px;
+    margin-top: -30px;
+}
+.video2{
+    margin-top: -420px;
+    float: left;
+    margin-left: 150px;
+}
+
+.botao2{
+    margin-left: 370px;
+    margin-top: -120px;
+}
+
+button{
+    font-size: 16px;
+    padding: 25px 100px;
+    border: 0;
+    border-radius: 45px;
+    color: white;
+    font-family: roboto;
+    background-color: green;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+}
+
+button:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px;
+
+}
+
+@keyframes botao{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+.container10{
+    margin-top: 100px;
+}
+.texto10{
+    font-size: 33px;
+    text-align: center;
+    color: #67003e;
+}
+.texto11{
+    text-align: center;
+    color: darkgray;
+    font-size: 17px;
+}.depoimentos{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.container16{
+    margin-top: 100px;
+}
+
+.texto12{
+    margin-top: -590px;
+    text-align: center;
+    color: #ef828b;
+    font-size: 35px;
+}
+.texto13{
+    text-align: center;
+    font-size: 16px;
+}
+.certificados{
+    padding-top: 20px;
+    margin-left: 330px;
+}
+
+.container11{
+    margin-top: 50px;
+    background-color: rgba(233, 229, 229, 0.486);
+    padding-top: 100px;
+    padding-left: 90px;
+    height: 600px;
+    font-family: Monserrat;
+}
+.texto14{
+    margin-left: 530px;
+    margin-top: -350px;
+    font-size: 18px;
+    color: rgba(169, 169, 169, 0.979);   
+}
+.texto15{
+    font-size: 33px;
+    color: #ef828b;
+}
+.texto16{
+    padding-top: 20px;
+    color: #67003e;
+}
+
+.risco{
+    float: right;
+    margin-right: 70px;
+    margin-top: -320px;
+}
+.texto17{
+    margin-top: 100px;
+    color: darkgray;
+    font-size: 18px;
+}
+.texto18{
+    padding-top: 20px;
+    font-size: 40px;
+    color: #67003e;
+}
+.texto19{
+    padding-top: 40px;
+    font-size: 18px;
+    color: #380022;
+}
+
+.container13{
+    margin-top: 150px;
+    background: #ef828b;
+    height: 600px;
+    font-family: Montserrat;
+}
+
+.texto20{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+.texto21{
+    text-align: center;
+    color: #380022;
+    font-size: 55px;
+    padding-top: 15px;
+}
+.texto22{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
+.texto23{
+    text-align: center;
+    color: #380022;
+    padding-top: 15px;
+    font-size: 55px;
+}
+.texto24{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 25px;
+}
+.botao3{
+    padding-top: 20px;
+    margin-left: 330px;
+}
+.branquinha{
+    padding-top: 100px;
+    margin-left: 360px;
+}
+
+.container14{
+    background: #380022;
+    height: 100px;
+    margin-top: -10px;
+    font-family: Montserrat, Open - Sans;
+}
+.texto25{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    font-family: Montserrat;
+}
